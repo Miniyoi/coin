@@ -1,0 +1,49 @@
+@import url(nav.css);
+body{
+    background-color: #222;
+}
+::placeholder{
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family:"Brush Script MT";
+    font-size: 600%;
+}
+.ListeMate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+}
+.Mate{
+    display: grid;
+    color: white;
+    text-align: center;
+}
+#Player1{
+    background-color: green;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+#P1{
+    width: 35%;
+    border-radius: 50em;
+    margin-top : 1em;
+}
+.DescP{
+    background-color: lightgreen;
+    color : black;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Monaco", monospace;
+}
+#BoutonMate{
+    border-radius: 8em;
+    box-shadow: 3px 3px 2px black;
+    margin-bottom: 0px;
+    background-color: darkgrey;
+    padding: 1em;
+    font-family: "Monaco", monospace;
+}

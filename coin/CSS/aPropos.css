@@ -1,0 +1,66 @@
+@import url(nav.css);
+
+body{
+    background-color: #222;
+}
+
+.Profil{
+    border-radius: 2em;
+    border: solid white;
+    color : white;
+    background-color: black; 
+    font-family: Bradley Hand, cursive; 
+    text-align: center;
+    padding-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    color: white;
+    margin-top: 2.5%;
+}
+#Formulaire{
+    background-color: black;
+    color : white;
+    padding: 0.5%;
+    border-radius: 0.5em;
+    border: solid 0.125em white;
+}
+#Formulaire::placeholder{
+    color : white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color : white;
+}
+#EnvoyerFormulaire{
+    margin-top: 1%;
+    border-radius: 2em;
+    background-color: black;
+    padding: 0.5%;
+    padding-right: 2%;
+    padding-left: 2% ;
+    border : solid 0.125em white;
+}
+#EnvoyerFormulaire a{
+    text-decoration: none;
+    color : white;
+}
+address{
+    padding-left: 5%;
+}
+.Placement iframe{
+    border-radius: 1em;
+    width: 80%;
+    height: 100vh;
+    margin-left: 10%;
+}
+
+.Basdepage{
+    border-top: solid 0.0175em white;
+    margin-top: 1%;
+}

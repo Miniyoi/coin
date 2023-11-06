@@ -1,0 +1,72 @@
+@import url(nav.css);
+
+@media (min-width : 1480px) {
+    .ListeJeux{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: auto;
+    }
+}
+@media (max-width : 1479px){
+    .ListeJeux{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+    }
+}
+@media (max-width : 980px){
+    .ListeJeux{
+        display : grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+}
+
+.Jeux{
+    display: block;
+    color: dark;
+    text-align: center;
+    width: auto;
+}
+#divLOL, #divMC, #divRL{
+    background-color: #444;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    border-radius: 3em;
+}
+
+h2{
+    text-align: center;
+    color: darkgrey;
+    font-family:"Brush Script MT";
+    font-size: 250%;
+}
+#TrouverMate, #DownloadGame{
+    border-radius: 3%;
+    box-shadow: 3px 3px 2px black;
+    margin-bottom: 1%;
+    background-color: #666;
+}
+#TrouverMate a, #DownloadGame a{
+    text-decoration: none;
+    color: black;   
+}
+#TrouverMate:hover,  #DownloadGame:hover{
+    transition: all 1s ease;
+    background-color : rgb(200, 50, 50);
+    border-radius: 1em;
+}
+#LOL, #MC, #RL{
+    width: auto;
+    height: 15em;
+}
+body{
+    background-color: #222;
+}
+
+h1{
+    color : white;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}

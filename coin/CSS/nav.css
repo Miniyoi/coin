@@ -1,0 +1,65 @@
+.Barredenav{
+    position: sticky;
+    top: 0;
+    display: block;
+}
+.BarreNav {
+    list-style-type: none;
+    margin : 0;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: rgb(200, 50, 50);
+    border-bottom: solid 0.125em white;
+    width: 100%;
+}
+.BarreNav img{
+    width: 5em;
+    border-radius: 2em;
+}
+.BarreNav li {
+    float: right;
+}
+
+.BarreNav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: "Brush Script MT"; 
+}
+#BarreRecherche {
+    padding: 10px;  
+    border-radius: 2em;
+    margin-top: 13%;
+}
+
+.BarreNav li a:hover{
+    transform: scale(1.05);
+    transition: all 0.75s ease;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(200, 50, 50);
+    text-align: center;
+    color : white;
+    width: 101%;
+    margin-bottom: 0%;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -1% ;
+    border-top: solid 0.25em whitesmoke;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+.CoinGames{
+    position: absolute;
+    font-family: Bradley Hand, cursive; 
+    margin-top: -1%;
+    color: white;
+}

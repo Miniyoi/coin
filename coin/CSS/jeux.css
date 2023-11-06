@@ -1,0 +1,69 @@
+@import url(boutonMate.css);
+@import url(nav.css);
+
+h2{
+    text-align: center;
+    color: darkgrey;
+    font-family:"Brush Script MT";
+    font-size: 250%;
+}
+.ListeMate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+}
+
+.Mate{
+    display: grid;
+    color: white;
+    text-align: center;
+}
+#Player1{
+    background-color: #444;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    border-radius: 3em;
+}
+#P1{
+    width: 35%;
+    border-radius: 50em;
+    margin-top : 1em;
+}
+.DescP{
+    color : black;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Monaco", monospace;
+}
+#BoutonMate{
+    border-radius: 8em;
+    box-shadow: 3px 3px 2px black;
+    margin-bottom: 2%;
+    background-color: darkgrey;
+    padding: 1em;
+    font-family: "Monaco", monospace;
+}
+#Apex, #Genshin, #GTA, #MC, #Valo, #RL{
+    width: auto;
+    height: 15em;
+    margin : auto;
+    margin-top: 2%;
+    display: block;
+}
+#Fortnite{
+    width: auto;
+    height: 20em;
+    margin: auto;
+    margin-top: 2%;
+    display: block;
+}
+
+#LOL, #Smash{
+    width: auto;
+    height: 10em;
+    margin: auto;
+    margin-top: 2%;
+    display: block;
+}
+

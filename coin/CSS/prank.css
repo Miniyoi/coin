@@ -1,0 +1,17 @@
+@import url(nav.css);
+
+.Info{
+    color: white;
+    font-family: Bradley Hand, cursive;
+    text-align: center;
+}
+body{
+    background-color: #222;
+}
+footer{
+    margin-top: 70vh;
+}
+.imagePrank{
+    margin-left: 45%;
+    position: absolute;
+}
